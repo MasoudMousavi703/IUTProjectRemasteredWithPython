@@ -1,6 +1,6 @@
 from Athlete import *
 class FootballPlayer(Athlete):
-    """description of class"""
+    """creates a football player as an athlete with additotional attributes"""
     def __init__(self,university='iut',name='name',id='id',password='pass'):
         pass
         Athlete.__init__(self,university,name,id,password)
