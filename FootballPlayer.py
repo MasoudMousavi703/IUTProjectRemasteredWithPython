@@ -18,8 +18,10 @@ class FootballPlayer(Athlete):
            myf=open('Fplayers_f.txt','a')
            ret='\n{},{},{},{}'.format(self.university,self.name,self.ID,self.password)
            myf.write(ret)
+           myf.close()
            return True
         else:
+            myf.close()
             return False
 
     def read_from_f(self):
