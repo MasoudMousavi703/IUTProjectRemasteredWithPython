@@ -1,6 +1,6 @@
 from Person import *
 class Athlete(Person):
-    """description of class"""
+    """creates an athlete as a child for person with additional university data"""
 
     def __init__(self,university='iut',name='name',id='id',password='pass'):
         self.university=university
